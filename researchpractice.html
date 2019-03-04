@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- Tag defines the document type and HTML version, here HTML5 -->
+
+<html dir = "ltr" lang = "en">
+<!-- Tag encloses the complete HTML doc (mainly comprises of header and body) -->
+<!-- There are 2 internationalization attributes dir, lang
+(available for most (although not all) XHTML elements.)-->
+
+<!-- dir attribute indicates to browser: direction text should flow (ltr or rtl)
+Used within the <html> tag
+When used within another tag, it controls text's direction for just the content of that tag
+and not in entire doc -->
+
+<!-- lang attribute indicates the main language used in doc,
+(attribute kept in HTML for backwards compatibility w earlier versions of HTML.)
+This attribute is replaced by xml:lang attribute in new XHTML documents.
+Values of lang attribute are ISO-639 standard two-character language codes. -->
+
+
+
+<head>
+<!-- Can keep other tages i.e. <title> or <link> -->
+
+<centre>
+
+<title>This is document title</title>
+<!-- Tag used inside head tag -->
+
+</centre>
+
+</head>
+
+<body background = "https://ichef.bbci.co.uk/news/660/cpsprodpb/11E16/production/_105683237_maya.jpg">
+<!-- Can keep other HTML tags ie.e <h1> <div> <p> -->
+<!-- Can also use bgcolor attricbute for body background -->
+
+      <h1>This is a heading</h1>
+<!-- Heading tag has 6 sizes, 1 line above and under heading -->
+
+      <p>Document content goes here.....</p>
+<!-- Paragraph tag, use <br /> void element (as no need to close)
+to break line in paragraph -->
+
+      <hr>
+<!-- Creates horisontal line -->
+
+     <pre>
+<!-- tag will preserve the formatting of the source document -->
+         function testFunction( strText ){
+            alert (strText)
+         }
+      </pre>
+
+<div class="Body2">
+<!-- Division content -->
+
+  <p>
+"12&nbsp;Angry&nbsp;Men."
+<!-- Do not want the client browser to break text,
+use a nonbreaking space entity &nbsp; instead of a normal space -->
+  </p>
+
+  <p>
+<!-- Nested HTML element example: Itallic and underlined -->
+    <i>italic</i>
+    <u>underlined</u>
+  </p>
+
+<!-- ATTRIBUTES -->
+<!-- Attribute: Used to define the characteristics of an HTML element
+and is placed inside the element's opening tag. -->
+<!-- All attributes made up of 1)name and 2)"value" : Always use lowercase -->
+<p align = "centre">This is left aligned</p>
+<!-- Name align, value "centre" -->
+<!-- 4 Core Attributes: Id, Title, Class, Style -->
+
+<!-- id used to uniquely identify any element within an HTML page -->
+<!-- Uses:
+1) To identify only unique element and its content.
+2) To distinguish between elements that have the same name -->
+<p id = "css">This para explains what is Cascading Style Sheet</p>
+
+<!-- title attribute often displayed as a tooltip
+when cursor comes over the element or while the element is loading. -->
+<h3 title = "I'm a tootltip!">Titled Heading Tag Example</h3>
+
+<!-- class attribute : used to associate an element with a style sheet,
+and specifies the class of element. -->
+<!-- The value of attribute may be a space-separated list of class names -->
+<!-- class = "className1 className2 className3" -->
+
+<!-- The style attribute allows to specify Cascading Style Sheet (CSS) rules
+within the element.-->
+<p style = "font-family:tahoma; color:#FF0000;">Hey Matey</p>
+
+<p> <b> <strike> Cat </strike> </b> <p>
+<!-- Strikes a line through and bolds text -->
+
+  width = "20" height = "30"
+
+</div>
+
+
+
+
+   </body>
+
+</html>

@@ -1,0 +1,8 @@
+Currently using atom as my text editor, it also allows plug ins to help with development.
+For example I can see a live reload of my html files (with command: Command Shift P, then select sever to fun from)
+This also allows allows all of my html files to be in one place, hence allowing for easier development.
+Therefore also allowing it to be easier to push this folder into my GYST development repository on GitHub which can act as my development portfolio.
+
+In Chrome you can use the Developer Tools (i.e. show which page is loading within a folder etc.)
+It can also show the elements and its relation to its CSS Style Sheet
+Or with the command: control U :to see the actual source code in another tab
